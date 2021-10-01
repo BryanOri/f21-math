@@ -7,6 +7,7 @@
 // With the + operator we can add together two values and that these values happen to be numbers.
 let sum;
 // 1) Add 7 to 36 and store the sum in "sum"
+sum = 7 + 36;
 
 console.log('sum:', sum);
 
@@ -14,28 +15,28 @@ console.log('sum:', sum);
 // With the - operator we can subtract two numbers.
 let difference;
 // 2) Subtract 17 from 50 and store the difference in "difference"
-
+difference = 50 - 17;
 console.log('difference:', difference);
 
 // Multiplication
 // With the * operator we can multiply one number by another number.
 let product;
 // 3) Multiply 12 by 5 and store the product in "product"
-
+product = 12 * 5;
 console.log('product:', product);
 
 // Division
 // With the / operator we can divide one number by another number.
 let quotient;
 // 4) Divide 10 by 2 and store the quotient in "quotient"
-
+quotient = 10 / 2;
 console.log('quotient:', quotient);
 
 // Exponent
 // With the ** operator we can raise one number to the power of another number.
 let power;
 // 5) Raise 2 to the 5th power and store the result in "power"
-
+power = 2 ** 5
 console.log('power:', power);
 
 // Modulo
@@ -43,18 +44,18 @@ console.log('power:', power);
 // (Note: This is often used to tell if a number is even or odd)
 let remainder;
 // 6) Use the modulus operator to divide 11 by 2 and store the remainder in "remainder"
-
+remainder = 11 % 2;
 console.log('remainder:', remainder);
 
 // Plus equals and minus equals
 // With the += operator / -= operator we can increment/decrement a variable's value.
 let counter = 0;
 // 7) Use the += operator to increment the "counter" variable by 10
-
+counter+=10;
 console.log('increment:', counter);
 
 // 8) Use the -= operator to decrement the "counter" variable by 5
-
+counter-=5
 console.log('decrement:', counter);
 
 // Absolute Value
@@ -63,7 +64,7 @@ let negative = -295;
 let positive;
 // 9) Use the Math.abs() method to get the absolute value of "negative"
 //    and store the result in the "positive" variable
-
+positive = Math.abs(negative);
 console.log('absolute value applied:', positive);
 
 // Rounding up and down
@@ -74,12 +75,12 @@ let roundedUp;
 let roundedDown;
 // 10) Use the Math.ceil() method to round "original" up to 34 and store
 //     the result in "roundedUp"
-
+roundedUp = Math.ceil(original);
 console.log('rounded up:', roundedUp);
 
 // 11) Use the Math.floor() method to round "original" down to 33 and store
 //     the result in "roundedDown"
-
+roundedDown = Math.floor(original);
 console.log('rounded down:', roundedDown);
 
 // Generate a Random Number
@@ -91,7 +92,7 @@ console.log('rounded down:', roundedDown);
 let randomNumber;
 // 12) Use the formula to generate a random number between 7 and 20 and
 //     store the result in "randomNumber"
-
+randomNumber = Math.floor( Math.random() * (20 - 7)) + 7
 console.log('random number:', randomNumber);
 
 // Greater than and greater than or equal to
@@ -101,11 +102,12 @@ let greaterThan;
 let greaterThanOrEqual;
 // 13) Use the > operator to compare if 10 is greater than 20 and store the
 //     result in "greaterThan"
-
+greaterThan = 10 > 20;
 console.log('10 is greater than 20:', greaterThan);
 
 // 14) Use the >= operator to compare if 10 is greater than or equal to 10 and store the
 //     result in "greaterThanOrEqual"
+greaterThanOrEqual = 10 >= 10;
 
 console.log('10 is greater than or equal to 10:', greaterThanOrEqual);
 
@@ -116,12 +118,12 @@ let lessThan;
 let lessThanOrEqual;
 // 15) Use the < operator to compare if 10 is less than 20 and store the
 //     result in "lessThan"
-
+lessThan = 10 < 20;
 console.log('10 is less than 20:', lessThan);
 
 // 16) Use the <= operator to compare if 10 is less than or equal to 10 and store the
 //     result in "lessThanOrEqual"
-
+lessThanOrEqual = 10 <= 10;
 console.log('10 is less than or equal to 10:', lessThanOrEqual);
 
 // Min and Max
@@ -132,18 +134,18 @@ let max;
 // 17) Use the Math.min() function to get the minimum number from the following
 //     parameter values and store the result in "min"
 //     Parameter Values: -4, -3, 1, 2
-
+min = Math.min(-4, -3, 1, 2);
 console.log('minimum value:', min);
 
 // 18) Use the Math.max() function to get the maximum number from the following
 //     parameter values and store the result in "max"
 //     Parameter Values: -4, -3, 1, 2
-
+max = Math.max(-4, -3, 1, 2);
 console.log('maximum value:', max);
 
 // Square root
 // The Math.sqrt() function returns the square root of a number
 let sqrt;
 // 19) Use the Math.sqrt() function to get the square root of 36 and store the result in "sqrt"
-
-console.log('square root:', sqrt);
+sqrt = Math.sqrt(36);
+console.log('square root:', sqrt); 
